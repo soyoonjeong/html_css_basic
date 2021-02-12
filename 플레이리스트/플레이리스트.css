@@ -1,0 +1,157 @@
+body {
+  border: 5px solid #00c6ad;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 100vh;
+  margin: 10px;
+}
+
+/*상태표시바*/
+#status-bar {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.status-bar__content {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.status-bar__content:first-child {
+  margin-right: 100px;
+  margin-left: 10px;
+}
+
+/*상태표시바*/
+
+/*메인음악*/
+#main-music {
+  display: flex;
+  height: 150px;
+  justify-content: space-evenly;
+}
+img {
+  border: 4px solid black;
+  margin-left: 30px;
+  height: 130px;
+  width: 130px;
+  border-radius: 10px;
+}
+#main-music_profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#main-music__title {
+  font-weight: bolder;
+  font-size: 35px;
+  margin: 10px;
+}
+#main-music__singer {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0px 0px 10px;
+}
+
+@keyframes coollonger {
+  0% {
+    transform: scaleY(1);
+  }
+  20% {
+    transform: scaleY(1.8);
+  }
+  40% {
+    transform: scaleY(1);
+  }
+  60% {
+    transform: scaleY(1);
+  }
+  80% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+.box {
+  margin: 10px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.box2 {
+  margin: 4px;
+  background-color: #00c6ad;
+  height: 20px;
+  width: 4px;
+  animation: coollonger 1s ease-in-out infinite;
+}
+.box2:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.box2:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.box2:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.box2:nth-child(5) {
+  animation-delay: 0.4s;
+}
+/*메인음악*/
+
+/*버튼들*/
+#button-box {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border: 3px solid black;
+  border-bottom-width: 5px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.button:first-child {
+  border-radius: 20px;
+  width: 130px;
+  justify-content: space-evenly;
+}
+#play {
+  font-weight: bolder;
+  font-size: 20px;
+}
+/*버튼들*/
+
+/*목록*/
+.playlist {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.playlist__profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 20px;
+}
+.playlist__album {
+  border-radius: 10px;
+  height: 65px;
+  width: 65px;
+  margin-top: 3px;
+}
+.playlist__profile__title {
+  font-weight: bolder;
+  font-size: 20px;
+}
+.playlist__profile__singer {
+  opacity: 70%;
+}

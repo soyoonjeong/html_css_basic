@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <title>Home - soyoon's first website</title> 
+        <meta charset = "utf-8"/>
+        <link href ="styles.css" rel = "stylesheet"/> <!--스타일 시트 연결하여 css와 html 연결-->
+        <style>
+            body{
+                height : 1000vh; /*vh : viewport height(screen height)*/
+                margin :50px ;
+            }
+            div{
+                width :300px;
+                height : 300px;
+                background-color: wheat;
+                position : relative;
+
+            }
+            .green{
+                background-color : teal;
+                height : 100px;
+                width : 100px;
+                /*position :static; /*default*/
+                /*position : fixed; /*처음 생성된 자리 고정, 화면 스크롤해도 변하지 않음*/
+                /*position: relative; /*처음 시작한 위치 기준*/
+                position:absolute; /*가장 가까운 relative한 부모 기준*/
+                right : 0px;
+            }
+        </style>
+    </head> 
+    <body>
+        <div>
+            <div class="green"></div>
+        </div>
+    </body>
+</html>

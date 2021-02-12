@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <title>Home - soyoon's first website</title> 
+        <meta charset = "utf-8"/>
+        <style>
+            body{
+                height : 1000vh; /*vh : viewport height(screen height)*/
+                margin :50px ;
+            }
+            div{
+              padding:5px;
+              border-radius :10px;
+            }
+            form{
+              border:1px solid salmon;
+              display :flex;
+              flex-direction: column;
+              padding:20px;
+            }
+            
+            button:hover{/*마우스가 버튼 위에 있을 때*/
+              background-color: teal;
+            }
+            button:active{ /*클릭만! 키보드로 선택되었을 때 제외*/
+              background-color: tomato;
+            }
+            input:focus{ /*마우스나 키보드로 선택되었을 때*/
+              background-color: turquoise;
+            }
+            a:visited{ /*한 번 이상 방문한 링크*/
+              color: yellowgreen;
+            }
+            a:hover{
+              color : teal;
+            }
+            a:focus{
+              color : turquoise;
+            }
+            form{
+              border:1px solid salmon;
+              display :flex;
+              flex-direction: column;
+              padding:20px;
+            }
+            form:focus-within{ /*focus된 자식이 있는 부모 엘리먼트에게 적용됨*/
+              border-color : seagreen; /*여기 엘리먼트 안에 어떤 것이든 focused되면 이렇게 만들어줘라*/
+            } 
+            form:hover input:focus{
+              background-color:sienna;
+            }
+        </style>
+    </head> 
+    <body>
+        <!--<div>
+            <button>hello</button>
+            <input type = "text"/>
+            <input type = "text"/>
+            <a href="https://apple.com">go to apple</a>
+        </div>-->
+        <form action"">
+          <input type="text" name="" id="">
+          <input type="text" name="" id="">
+          <input type="text" name="" id="">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <title>Home - soyoon's first website</title> 
+        <meta charset = "utf-8"/>
+        <link href ="styles.css" rel = "stylesheet"/> <!--스타일 시트 연결하여 css와 html 연결-->
+        <style>
+            body{
+                height : 100vh; /*vh : viewport height(screen height)*/
+                margin :20px ;
+                display : flex;
+                justify-content: center;/*justify-content : main axis(수평으로 설정)*/
+                align-items: flex-end; /*align-items : cross axis(수직으로 설정)*/
+                flex-direction : column;
+            }
+            div{
+                display : flex;
+                justify-content : center;
+                align-items : center;
+                width :300px;
+                height : 300px;
+                background-color:teal;
+                flex-wrap: nowrap;
+            }
+            #second{
+                background-color : wheat;
+            }
+        </style>
+    </head> 
+    <body>
+       <div>1</div>
+       <div id = "second">2</div>
+       <div>3</div>
+    </body>
+</html>
