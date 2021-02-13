@@ -1,0 +1,13 @@
+.screen__titles {
+  margin-top: 30px;
+  text-align: center;
+}
+.screen__titles_title {
+  font-weight: bolder;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.screen__titles_subtitle {
+  opacity: 0.3;
+  font-weight: 500;
+}

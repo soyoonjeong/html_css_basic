@@ -1,0 +1,48 @@
+#screen2__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.screen2__main_img {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.15);
+  margin: 50px 0px 15px 0px;
+}
+#screen2__main input {
+  width: 150px;
+  margin-top: 20px;
+  color: #222222;
+  border: none;
+  outline: none;
+  width: 200px;
+}
+#screen2__bar {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  position: relative;
+}
+.fa-redo-alt,
+.fa-random {
+  opacity: 0.2;
+}
+.screen2__play-btn {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f7f7f7;
+  text-decoration: none;
+  -webkit-box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.1);
+}
